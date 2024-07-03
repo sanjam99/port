@@ -20,27 +20,13 @@ const About: React.FC = () => {
           </div>
           <div className="flex flex-col space-y-5">
             <p className="text-base tracking-wide leading-normal text-gray-500">
-              I'm a passionate, self-proclaimed designer who specializes in full
-              stack development (React.js & Node.js). I am very enthusiastic
-              about bringing the technical and visual aspects of digital
-              products to life. User experience, pixel perfect design, and
-              writing clear, readable, highly performant code matters to me.
+            My name is Sahil Shriwatri, and I am a budding software engineer with a deep passion for technology and innovation. Currently, I am pursuing my B.Tech in Computer Science at G.H. Raisoni College of Engineering in Nagpur, maintaining an impressive 8.3 CGPA. My academic journey has been driven by a keen interest in programming languages such as Java, C, C++, and JavaScript, alongside practical experience with development frameworks like React.js, Node.js, and Express.js. My goal is to leverage these skills in a Software Engineer position at Google, where I can contribute to cutting-edge projects in distributed systems, machine learning, and information retrieval.
             </p>
             <p className="text-base tracking-wide leading-normal text-gray-500">
-              I began my journey as a web developer in 2015, and since then,
-              I've continued to grow and evolve as a developer, taking on new
-              challenges and learning the latest technologies along the way.
-              Now, in my early thirties, 7 years after starting my web
-              development journey, I'm building cutting-edge web applications
-              using modern technologies such as Next.js, TypeScript, Nestjs,
-              Tailwindcss, Supabase and much more.
+            During my time as a Software Intern at Infobyte in Nagpur, I honed my technical and collaborative skills by working on various projects, including developing a personal portfolio, landing page, and calculators using HTML, CSS, and JavaScript. This role allowed me to demonstrate my ability to work effectively in a team, solve complex problems, and deliver high-quality results under tight deadlines. I have also developed several personal projects, such as Wanderlust, a user-friendly platform for booking unique stays in India, and Jadoo, an AI-driven hotel management system. These projects have equipped me with hands-on experience in using modern technologies and frameworks.
             </p>
             <p className="text-base tracking-wide leading-normal text-gray-500">
-              When I'm not in full-on developer mode, you can find me hovering
-              around on twitter or on indie hacker, witnessing the journey of
-              early startups or enjoying some free time. You can follow me on
-              Twitter where I share tech-related bites and build in public, or
-              you can follow me on GitHub.
+            Outside of academics and internships, I actively participate in extra-curricular activities, such as the GDSC events at my college, and have achieved a global rank of 8340 in the Leetcode weekly contest 386. These experiences have not only sharpened my technical skills but also nurtured my adaptability, resilience, and strong communication abilities. As a proactive and empathetic individual, I thrive in challenging environments and am always eager to embrace new adventures in the tech world.
             </p>
           </div>
         </div>
