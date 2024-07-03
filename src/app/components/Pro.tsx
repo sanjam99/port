@@ -1,23 +1,23 @@
 import React from 'react';
-import Image from 'next/image';
-import img from '../assets/image.png';
+import Image, { StaticImageData } from 'next/image';
 
 interface ProProps {
   number: string;
   title: string;
   description: string;
+  image: StaticImageData;
   reverse?: boolean;
 }
 
-const Pro: React.FC<ProProps> = ({ number, title, description, reverse }) => {
+const Pro: React.FC<ProProps> = ({ number, title, description, image, reverse }) => {
   return (
     <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} rounded-xl shadow-lg overflow-hidden`}>
       <div className="relative w-full h-64 md:w-1/2 md:h-auto">
         <Image
-          src={img}
+          src={image}
           layout="fill"
           objectFit="cover"
-          alt="Project image"
+          alt={`Image for ${title}`}
         />
       </div>
       <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-center">
