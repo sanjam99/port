@@ -4,18 +4,18 @@ import Pro from './Pro';
 const projects = [
   {
     number: "01",
-    title: "Crypto Screener Application",
-    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+    title: "Wanderlust",
+    description: "A user-friendly platform for booking unique stays in India, built with JavaScript, EJS, Node.js,Express.js, Mongoose Middleware, and MongoDB."
   },
   {
     number: "02",
-    title: "Euphoria - Ecommerce (Apparels) Website Template",
-    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+    title: "Jadoo",
+    description: " A hotel management system with seamless booking experiences and AI-driven features, built with React,React Query, TypeScript, Material-UI, Figma, Node.js, and Redis."
   },
   {
     number: "03",
-    title: "Blog Website Template",
-    description: "I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to specimen book."
+    title: "Simon Says Game",
+    description: " A memory game built with HTML, CSS, JavaScript, and Github."
   }
 ];
 

@@ -1,4 +1,6 @@
 import React from "react";
+import Com from "../assets/Conpany.jpeg";
+import Image from "next/image";
 
 const Experience: React.FC = () => {
   return (
@@ -11,24 +13,25 @@ const Experience: React.FC = () => {
           <div className="flex flex-col space-y-7 items-start justify-start p-6 border rounded-lg border-gray-500">
             <div className="flex space-x-2.5 items-center justify-between w-full">
               <div className="flex space-x-8 items-center justify-start">
-                <img
+                {/* <img
                   className="w-8 h-8 rounded-lg"
-                  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.glassdoor.com%2FReviews%2FOasis-Infobyte-Internship-Reviews-EI_IE7563232.0%2C14_KO15%2C25.htm&psig=AOvVaw3ADb3eH_GzAtMLbOVwX03X&ust=1719944810759000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiJ2e-7hocDFQAAAAAdAAAAABAE"
+                  src={Com}
                   alt="Google"
-                />
+                /> */}
+                <Image src={Com} width={32} height={32} alt="Logo" />
                 <p className="text-2xl leading-7 text-center text-white">
                   Software Intern
                 </p>
               </div>
               <p className="text-base leading-tight text-center text-gray-300">
-              Aug 2023 - Aug 2023
+                1-Aug 2023 - 31-Aug 2023
               </p>
             </div>
             <p className="text-base tracking-wide leading-normal text-gray-300">
               As a Software Intern at Infobytes, I played a pivotal role in
               developing innovative solutions for core search algorithms.
-              Collaborating with a dynamic team of engineers, I contributed to the
-              enhancement of search accuracy and efficiency, optimizing user
+              Collaborating with a dynamic team of engineers, I contributed to
+              the enhancement of search accuracy and efficiency, optimizing user
               experiences for millions of users worldwide.
             </p>
           </div>
